@@ -62,5 +62,6 @@ filetype plugin indent on    " required
 let NERDTreeQuitOnOpen=1
 set number
 colorscheme codedark
-nnoremap <C-n> <Cmd>NERDTree<CR>
+nnoremap <C-f> <Cmd>NERDTree<CR>
+nnoremap <C-c> <Cmd>below terminal<CR> 
 syntax on
